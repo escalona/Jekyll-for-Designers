@@ -1,10 +1,39 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title> {% if page.title %} {{ page.title }} | {% endif %} Jekyll for Designers</title>
+    <title> {% if page.title %} {{ page.title }} | {% endif %} Aaron Escalona</title>
     <link rel="stylesheet" type="text/css" media="screen, projection" href="/stylesheets/screen.css" />
+<!-- Analytics -->
+
   </head>
   <body>
-    {{ content }}
+    <div class="container">
+<!-- Header -->
+      <header>
+        <!-- <a href="/" title="Home"><img src="/images/logo.png" alt="Logo" id="logo"></a> -->
+<!-- Nav -->
+        <nav>
+          <ul>
+            <li><a href="/index.html" title="Blog">Blog</a></li>
+            <li><a href="/about.html" title="About">About</a></li>
+            <li><a href="/contact.html" title="Contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+<!-- Content -->
+      {{ content }}
+<!-- Footer -->
+      <footer>
+        <div>
+        </div>
+        <div>
+          <ul>
+            <li><a href="#" class="ss-twitter right">Twitter</a></li>
+            <li><a href="mailto:" class="ss-mail right">Contact</a></li>
+            <li><a href="#" class="ss-rss right">RSS Feed</a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
